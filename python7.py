@@ -12,7 +12,7 @@ object2 = MyClass()
 print("object2 = ", object2.x)
 
 class Assasin:
-    def _init_(self, name_f, age_f):
+    def __init__(self, name_f, age_f):
         self.name = name_f
         self.age = age_f
 
